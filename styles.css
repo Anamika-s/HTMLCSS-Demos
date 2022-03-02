@@ -1,0 +1,39 @@
+* {
+   text-align: center;
+   color: blue;
+ }
+ body{
+    background-image: url("/images/htmlimage.png");
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+     /* background-size: cover; */
+   
+ }
+ 
+p{
+   background-color:aqua;
+   height: 100px;
+   }
+   h2,h3{
+   
+      background-color: red;
+   }
+   .class1
+   {
+      background-color: yellow;
+   }
+   #id1
+   {
+      background-color: palevioletred;
+   }
+
+   p.class2 
+   {
+      background-color: green;
+      border: 2px solid red;
+      border-radius: 10px;
+   }
+
+

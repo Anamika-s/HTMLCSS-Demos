@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <h1> Data Entry Form </h1>
+     <form>
+          <fieldset>
+               <legend> Personal Infomation 
+                    <div>
+                         <label for="txtName"> Enter Name </label> 
+                         <input type="text" name="txtName" id="txtName" placeholder="Enter Name here " required/>
+                        </div>
+                        <div>
+                        <label for="txtAddress"> Enter Address </label> 
+                        <input type="text" name="txtAddress" id="txtAddress" placeholder="Enter address here"  maxlength="10" />
+                        </div>
+                        <div>
+                         <label for="txtAge"> Enter Age </label> 
+                         <input type="number" name="txtAge" id="txtAge" min="20" max="30"/>
+                         </div>
+               </legend>
+          </fieldset>
+         
+          <label for="files">Select files:</label>
+          <input type="file" id="files" name="files" multiple>
+          <div>
+               <label for="txtDetails"> Enter Details </label>
+               <textarea id="txtDetails" rows="10" cols="30" autofocus> </textarea>  
+          </div>
+          <input list="browsers">
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+          </datalist>
+          <input type="image" src="/images/klematis.jpg" alt="Submit" width="48" height="48">
+          <div>
+
+               Select Course
+               <select>
+                    <optgroup label="Languages">
+                    <option> C# </option>
+                    <option> Java </option> 
+                    <option> C++ </option> 
+                    <option> C </option>
+               </optgroup>
+                    <optgroup label="Database">
+                         
+                         <option> Sql </option>
+                         <option> MySql </option>
+                         <option> Oracle </option>
+                    </optgroup> 
+                  
+               </select>
+          </div>
+          <div>
+               Enter Qualification : Gr <input type="checkbox"> &nbsp; &nbsp; UG<input type="checkbox">
+               &nbsp;&nbsp; PG <input type="checkbox">
+
+          </div>
+
+          <div>
+               Select Course : 1 year <input type="radio" name="course"> 
+               &nbsp; &nbsp;2 year <input type="radio" name="course"> 
+               &nbsp;&nbsp; 3 year <input type="radio" name="course"> 
+
+          </div>
+          <div>
+               <label for="txtDOB"> Select DOB </label>
+               <input type="date" id="txtDOB"/>
+          </div>
+          <div>
+               Select Color : <input type="color">
+          </div>
+
+          <button type="submit"> Click  </button>
+          
+          
+     </form>
+</body>
+</html>
